@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 8px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+}
+
+.divtopmenuleft{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.divtopmenuleft a{
+    font-size: 18px;
+}
+
+.divtopmenuright{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.divtopmenuright a{
+    font-size: 18px;
+}
+
+.topmenuimg{
+    height: max-content;
+    width: 32px;
+}
+
+.topmenu{
+    color: rgba(26, 24, 24, 0.65);
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signin{
+    background-color: rgb(75, 75, 220);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: white;
+    width: 30%;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+    align-items:center;
+    margin-top: 60px;
+}
+.search input{
+    border: 1px solid rgba(26, 24, 24, 0.35);
+    border-radius: 10px;
+    height: 32px;
+    width: 40%;
+    margin-top: 25px;
+}
+
+.divsearchbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.divsearchbutton input{
+    font-size: 16px;
+    margin: 10px;
+    padding: 12px;
+    color: rgba(26, 24, 24, 0.65);
+    border-radius: 10px;
+    border: 1px solid rgba(26, 24, 24, 0.35);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.bottommenu{
+    color: rgba(26, 24, 24, 0.65);
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.divbottommenuleft{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.divbottommenuleft a{
+    font-size: 14px;
+}
+
+.divbottommenuright{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-right: 3px;
+}
+
+.divbottommenuright a{
+    font-size: 14px;
+}
